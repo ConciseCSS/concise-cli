@@ -12,8 +12,8 @@ cliparse.parse(cliparse.cli({
   version: pkg.version,
   commands: [
     cliparse.command(
-      'compile',
-      { description: 'Compile code from Concise Framework',
+      'compile', {
+        description: 'Compile code from Concise Framework',
         args: [
           cliparse.argument('input', { description: 'File to compile' }),
           cliparse.argument('output', { description: 'Output CSS file' })
