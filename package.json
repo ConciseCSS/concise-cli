@@ -16,7 +16,6 @@
     "cliparse": "^0.2.5",
     "node-sass": "^3.7.0",
     "postcss": "^5.0.21",
-    "postcss-custom-media": "^5.0.1",
     "postcss-media-minmax": "^2.1.2"
   },
   "devDependencies": {
