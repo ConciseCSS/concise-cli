@@ -6,6 +6,9 @@
   "scripts": {
     "test": "tape test"
   },
+  "bin": {
+    "concise": "index.js"
+  },
   "author": "James Kolce <contact@jameskolce.com>",
   "license": "MIT",
   "dependencies": {
