@@ -1,0 +1,21 @@
+{
+  "name": "concise-cli",
+  "version": "0.1.0",
+  "description": "Command-line Interface for Concise Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "author": "James Kolce <contact@jameskolce.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cliparse": "^0.2.5",
+    "node-sass": "^3.7.0",
+    "postcss": "^5.0.21",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-media-minmax": "^2.1.2"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
