@@ -13,11 +13,6 @@ const expected = (file) => {
 test('@media', (t) => {
 
   t.equal(
-    actual('customMedia'),
-    expected('customMedia'),
-    'should transform custom media queries');
-
-  t.equal(
     actual('mediaMinMax'),
     expected('mediaMinMax'),
     'should transform ranges in media queries');
