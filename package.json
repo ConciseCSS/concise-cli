@@ -12,6 +12,7 @@
   "author": "James Kolce <contact@jameskolce.com>",
   "license": "MIT",
   "dependencies": {
+    "autoprefixer": "^6.3.6",
     "cliparse": "^0.2.5",
     "node-sass": "^3.7.0",
     "postcss": "^5.0.21",
