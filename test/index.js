@@ -26,8 +26,8 @@ test('@media', (t) => {
 
 test('units', (t) => {
   t.equal(
-    actual('defineUnits'),
-    expected('defineUnits'),
+    actual('verticalRhythm'),
+    expected('verticalRhythm'),
     'should be added');
 
   t.end();
