@@ -18,7 +18,7 @@
     "postcss": "^5.0.21",
     "postcss-custom-media": "^5.0.1",
     "postcss-media-minmax": "^2.1.2",
-    "postcss-vertical-rhythm": "jameskolce/postcss-vertical-rhythm"
+    "postcss-vertical-rhythm": "jameskolce/postcss-lh"
   },
   "devDependencies": {
     "tape": "^4.5.1"
