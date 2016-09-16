@@ -1,13 +1,13 @@
 {
   "name": "concise-cli",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Command-line Interface for Concise Framework",
   "main": "index.js",
   "scripts": {
     "test": "tape test"
   },
   "bin": {
-    "concise": "index.js"
+    "concisecss": "index.js"
   },
   "author": "James Kolce <contact@jameskolce.com>",
   "license": "MIT",
@@ -17,9 +17,9 @@
     "node-sass": "^3.7.0",
     "postcss": "^5.0.21",
     "postcss-custom-media": "^5.0.1",
+    "postcss-import": "^8.1.2",
     "postcss-lh": "^1.1.0",
-    "postcss-media-minmax": "^2.1.2",
-    "postcss-pr": "^1.0.0"
+    "postcss-media-minmax": "^2.1.2"
   },
   "devDependencies": {
     "tape": "^4.5.1"

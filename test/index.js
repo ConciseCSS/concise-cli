@@ -31,11 +31,6 @@ test('units', (t) => {
     'should be added');
 
   t.equal(
-    actual('pxToRem'),
-    expected('pxToRem'),
-    'should be transformed');
-
-  t.equal(
     actual('pxToEm'),
     expected('pxToEm'),
     'should be transformed');
