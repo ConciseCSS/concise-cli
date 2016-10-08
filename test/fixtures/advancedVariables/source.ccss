@@ -142,19 +142,19 @@ $orientation: landscape;
 }
 
 @for $i from 1 to 5 by 2 {
-.for-$i {
-  width: $(i)px;
-}
+  .for-$i {
+    width: $(i)px;
+  }
 }
 
 @for $i from 6 to 1 by 2 {
-.for-$i {
-  height: $(i)px;
-}
+  .for-$i {
+    height: $(i)px;
+  }
 }
 
 @each $i in (foo, bar, baz) {
   .test-$i {
-  color: $pass;
-}
+    color: $pass;
+  }
 }

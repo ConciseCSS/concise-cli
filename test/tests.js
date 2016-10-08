@@ -41,3 +41,12 @@ test('variables', (t) => {
 
   t.end();
 });
+
+test('Property lockup', (t) => {
+  t.equal(
+    actual('property-lookup'),
+    expected('property-lookup'),
+    'Property references should be replaced');
+
+  t.end();
+});
