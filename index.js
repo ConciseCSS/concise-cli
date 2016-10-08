@@ -13,7 +13,7 @@ cliparse.parse(cliparse.cli({
   commands: [
     cliparse.command(
       'compile', {
-        description: 'Compile code from Concise Framework',
+        description: 'Compile ConciseCSS files to CSS',
         args: [
           cliparse.argument('input', { description: 'File to compile' }),
           cliparse.argument('output', { description: 'Output CSS file' })
