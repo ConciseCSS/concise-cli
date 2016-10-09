@@ -30,10 +30,5 @@ test('units', (t) => {
     expected('verticalRhythm'),
     'should be added');
 
-  t.equal(
-    actual('pxToEm'),
-    expected('pxToEm'),
-    'should be transformed');
-
   t.end();
 });
