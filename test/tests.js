@@ -50,3 +50,12 @@ test('Property lockup', (t) => {
 
   t.end();
 });
+
+test('Nested rule sets', (t) => {
+  t.equal(
+    actual('nested'),
+    expected('nested'),
+    'Expand nested rule sets');
+
+  t.end();
+});
