@@ -59,3 +59,12 @@ test('Nested rule sets', (t) => {
 
   t.end();
 });
+
+test('Custom selectors', (t) => {
+  t.equal(
+    actual('custom-selectors'),
+    expected('custom-selectors'),
+    'Expand custom selectors');
+
+  t.end();
+});
