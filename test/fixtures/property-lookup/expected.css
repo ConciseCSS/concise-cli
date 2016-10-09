@@ -1,0 +1,95 @@
+a {
+  foo: FOO;
+  bar: FOO;
+}
+
+a {
+  foo: BAR;
+  bar: BAR;
+}
+
+a {
+  foo: BAR;
+  bar: BARR;
+}
+
+a {
+  foo: BAR;
+  bar: BAR;
+  baz: BAR;
+}
+
+a {
+  foo: FOO;
+  bar: BAR;
+  baz: FOO BAR;
+}
+
+@a {
+  b {
+    foo: FOO;
+    bar: FOO;
+  }
+}
+
+a {
+  foo: FOO;
+  bar: BAR FOO BAZ;
+}
+
+a {
+  foo: FOO;
+  bar: FOO;
+  baz: FOO;
+}
+
+a {
+  foo: FOO;
+  bar: FOO;
+  baz: FOO;
+}
+
+a { @empty; }
+
+a {
+  foo: FOO;
+  foo: BAR;
+}
+
+a b {
+  baz: BAR;
+}
+
+a {
+  foo: FOO;
+}
+
+a b {
+  foo: BAR;
+  foo: BAZ;
+}
+
+a b c {
+  qux: BAZ;
+}
+
+a {
+  foo: FOO;
+  bar: FOO;
+}
+
+a b {
+  foo: BAZ;
+  bar: BAZ;
+}
+
+a {
+  foo: FOO;
+}
+
+@media (min-width: 400px) {
+  a {
+    foo: BAZ;
+    bar: BAZ;
+  }
+}
