@@ -32,3 +32,12 @@ test('units', (t) => {
 
   t.end();
 });
+
+test('range input', (t) => {
+  t.equal(
+    actual('input-range'),
+    expected('input-range'),
+    'should be transformed');
+
+  t.end();
+});
