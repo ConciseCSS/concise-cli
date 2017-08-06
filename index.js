@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 const cliparse = require('cliparse');
+const compile = require('concisecss');
+
 const pkg = require('./package.json');
 const fs = require('fs');
-
-const compile = require('./lib/compile');
 
 cliparse.parse(cliparse.cli({
   name: 'concise-cli',

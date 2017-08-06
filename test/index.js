@@ -1,6 +1,6 @@
 const fs = require("fs");
 const test = require("tape");
-const compile = require('../lib/compile');
+const compile = require('concisecss');
 
 const actual = (file) => {
   return compile(`test/fixtures/${file}/${file}.scss`).replace(/\s+/g, '');
